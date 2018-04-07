@@ -13,7 +13,7 @@ public class DtbLoader {
             // Setup the connection with the DB
             Connection connect = DriverManager
                     .getConnection("jdbc:mysql://localhost/testDtb?"
-                            + "user=root&password=95123Lo");
+                            + "user=root&password=95123");
             String query = " insert into tableTest (temp,hum,dates)"
                     + " values (?,?,?)";
 
