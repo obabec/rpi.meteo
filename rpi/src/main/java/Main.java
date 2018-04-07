@@ -21,7 +21,7 @@ public class Main {
 
                 // run the Unix "ps -ef" command
                 // using the Runtime exec method:
-                Process p = Runtime.getRuntime().exec("python writeToFile.py");
+                Process p = Runtime.getRuntime().exec("python writeTemp.py 22");
 
                 BufferedReader stdInput = new BufferedReader(new
                         InputStreamReader(p.getInputStream()));
